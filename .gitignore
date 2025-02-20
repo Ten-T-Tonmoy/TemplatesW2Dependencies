@@ -1,0 +1,92 @@
+# Logs and debugging
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependency directories
+node_modules/
+bower_components/
+jspm_packages/
+
+# OS/Editor-specific files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Next.js
+.next/
+out/
+
+# React Native
+.expo/
+.expo-shared/
+
+# TailwindCSS
+tailwind.config.js
+tailwind.config.cjs
+tailwind.config.ts
+
+# TypeScript
+*.tsbuildinfo
+
+# Build directories
+build/
+dist/
+public/build/
+coverage/
+
+# Cache
+.cache/
+.cache-loader/
+*.cache
+.pnp.*
+.pnpm-debug.log*
+
+# Linting
+.eslintcache
+.stylelintcache
+
+# Test coverage and reports
+coverage/
+*.lcov
+.nyc_output/
+
+# Framework-specific (e.g., Chakra UI, MUI, Storybook)
+storybook-static/
+.storybook/
+
+# Webpack/Babel/Parcel
+.parcel-cache/
+.cache/
+.cache-loader/
+babel.config.js
+babel.config.cjs
+babel.config.ts
+webpack.config.js
+webpack.config.cjs
+webpack.config.ts
+
+# Misc
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Temporary files
+*.tmp
+*.temp
